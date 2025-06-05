@@ -80,7 +80,7 @@ It supports features such as:
 
    ```json
    {
-     "clientId": 2,
+     "clientId": 1,
      "professionalId": 101,
      "startTime": "2025-06-07T10:00:00",
      "endTime": "2025-06-07T11:00:00"
