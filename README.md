@@ -66,6 +66,8 @@ It supports features such as:
     spring.datasource.url=jdbc:mysql://localhost:3306/bookingservice
     spring.datasource.username=root
     spring.datasource.password=your_password
+    server.port=1010
+   ```
 
    
 5. Run the project:
@@ -74,14 +76,15 @@ It supports features such as:
 6. test the endpoints using Postman on `http://localhost:1010`
    
 
-Example for small JSON payload
-```json
-{
-  "clientId": 2,
-  "professionalId": 101,
-  "startTime": "2025-06-07T10:00:00",
-  "endTime": "2025-06-07T11:00:00"
-}
+## 📤 Sample JSON Request (for POST /bookings)
 
+   ```json
+   {
+     "clientId": 2,
+     "professionalId": 101,
+     "startTime": "2025-06-07T10:00:00",
+     "endTime": "2025-06-07T11:00:00"
+   }
+   ```
 
 ⚠️ Note: Some parts of this backend assignment were accelerated using ChatGPT for implementation assistance and verification. All APIs have been tested successfully using Postman.
